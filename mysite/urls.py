@@ -20,7 +20,7 @@ from django.urls import path, include
 #path localhost:8000/polls/
 
 urlpatterns = [
-    path('polls/', include('polls.urls')), 
+    path('polls/', include('polls.urls')), #MATCHED
     path('admin/', admin.site.urls),   
     
 ]
